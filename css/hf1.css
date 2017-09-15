@@ -1,0 +1,410 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;				/*清除列表风格*/
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+a {
+   
+    text-decoration: none;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+.w {
+    /*版心 提取 */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+body{
+	background:#e8ceab;
+}
+
+/*<!--header详情页开始-->*/
+/*site-nav*/
+
+.sw {
+	background:#B0743E;
+    width: 100%;
+}
+
+.site-nav {
+	width:1200px;
+    margin: 0 auto;
+    min-width: 965px;
+	background:#B0743E;
+	font-size: 12px;
+	line-height: 26px;
+	color: #fff;
+}
+
+.site-nav-right li {
+	float: left;
+	padding-left: 10px;
+}
+
+.site-nav-right .line {
+	height: 12px;
+	width: 1px;
+	background: #fff;
+	margin-top: 8px;
+	padding: 0px;
+	margin-left: 8px;
+}
+
+.site-nav-right a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/*search*/
+.search-all,.search-all-fixed{
+	width: 100%;
+	 font-size: 14px;
+	 position: relative;
+	 background: #ffffff;
+}
+.search {
+	width:1200px;
+    margin: 0 auto;
+}
+.search-text {
+	border: 1px solid #B0743E;
+	width: 300px;
+	height: 34px;
+	padding-left: 10px;
+	border-radius: 34px;
+	margin-top: 24px;
+	outline: none;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+.search-icon {
+	margin-top: 20px;
+}
+
+.search-icons {
+	background: url(../img/1_03.png)no-repeat;
+	height: 32px;
+	width:10%;
+	position: absolute;
+	top: 30px;
+	right: 64px;
+}
+
+.search-form {
+	position: relative;
+	width:31%;
+}
+
+.search-form span {
+	display: block;
+	height: 22px;
+	width: 2px;
+	background: #B0743E;
+	position: absolute;
+	top: 30px;
+	right: 110px;
+}
+
+.search-all-fixed{
+	display: none;
+	position: fixed;
+	top:0px;
+	background: rgba(255,255,255,0.8);
+   	position: fixed;
+    top:0px;
+    left: 0;
+    z-index: 10000;
+    border-bottom: 1px solid #E8CEAB;
+}
+#menu {
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 80px;
+	 }
+#nav {
+    margin: 0 auto;
+    width: 100%;
+    
+}
+#nav .mainlevel {
+	float:left;
+  	text-align:center; 
+  	display:block;
+  }
+#nav .mainlevel a {
+	color:#B0743E; 
+	text-decoration:none; 
+	text-align:center; 
+	padding:0 30px;
+	display:block;
+	line-height:34px; 
+	height:34px;
+	font-size: 20px;
+	  }
+#nav .mainlevel ul {
+	position:absolute; 
+	width:100%;
+	margin: 0 auto;
+	display:none;
+	top:64px;
+	left:0px;
+	background:#B0743E;
+	z-index: 9999;
+	}
+#nav .mainlevel li {
+	float:left;
+	list-style: none;
+  }
+  .sub_nav_01 .sub_navli{
+  	margin-left:300px;
+  	text-align: center;
+  }
+#nav .mainlevel li a {
+	padding:0 56px;
+	height: 60px;
+	line-height: 60px;
+	 display:block;
+	}
+ #nav .sub_nav_01 a{
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 16px;
+}
+#nav .sub_nav_01 a:hover{
+	font-weight: 700;
+}
+/*search end*/
+
+/*<!--焦点图开始-->*/
+
+    .focuse{
+    	width:1366px;	 
+         margin:0 auto;
+    }
+/*<!--焦点图结束-->*/
+
+
+.div-nav{
+	/*background:yellow;*/
+	padding-top:40px;
+	padding-bottom:10px;
+	width:1024px;
+	margin:0 auto;
+	
+}
+.div-nav li{
+	float: left;
+   margin-left:48px;
+   margin-right:48px;
+
+}
+
+.div-nav li a{
+	display: inline-block;
+	width:160px;
+	height:218px;
+	background:#fff;
+	text-align: center;
+	line-height: 218px;
+	font-size: 36px;
+	color:#333;
+}
+.div-nav li a:hover{
+	 background:#b0743d;
+     color:white;
+}
+.div-nav .face{
+	 background:#b0743d;
+	 color:white;
+}
+/*div-nav结束*/
+.pro-case{
+	width:1120px;
+	height: 110px;
+	line-height: 110px;	
+	color:#fff;
+	
+	padding-left:220px;
+	margin-left: 100px;		
+	margin:0 auto;
+
+}
+#pro-case{
+	background:url(../img/pro-case-bg.png) no-repeat 30px 0;
+}
+.pro-case li{
+	float: left;
+	font-size: 20px;
+	padding:0 20px;	
+}
+.pro-case .current{
+	border:none;
+	background:#b0743d;
+	 width:22px;
+     height:22px;
+}
+.pro-case .round{
+	 width:16px;
+     height:16px;
+     border:3px solid white;
+      border-radius:18px;
+     display:inline-block;     
+       position:relative;
+       top:4.5px;
+      left:-14px;
+}
+.pro-case .round:hover{
+	border:none;
+	background:#b0743d;
+	 width:22px;
+     height:22px;
+}
+
+
+.product-toggle{
+	padding-left:20px;
+	padding-right: ;
+	/*background:red;*/
+}
+#product2,#product3,#product4,#product5,#product6,#product7,#product8{
+	display:none;
+}
+.product-toggle .pic{
+	text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 2s ease-in-out;
+}
+.product-toggle .pic:hover{
+	transform: rotate(0deg) scale(1.1);
+	
+}
+
+.product-toggle li{
+	float: left;
+	width:360px;
+	height:460px;
+	background:#fff;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.product-toggle .active-bd{
+	padding-top:30px;
+}
+ .product-toggle .active-bd p {
+    line-height: 26px;
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+.product-toggle .active-bd p:hover {
+	color: #b0743d;
+}
+ .product-toggle .active-bd .best {
+    display: block;
+    width:116px;
+    height:36px;
+    line-height: 36px;
+    border: 2px;
+    background-color: #b0743d;
+    font-size: 14px;
+    color: #fff;  
+    text-align: center;
+    margin: 10px auto;
+    }
+    .show{
+    	background-color: #b0743d;
+    }
+    
+    
+.footer-all {
+	margin-top: 40px;
+	width: 100%;
+	background:#333333;
+}
+
+.footer {
+	height: 250px;
+	margin: 0 auto;
+	width: 90%;
+    background:#333333;
+}
+.footer-middle {
+	height: 2px;
+	width: 1200px;
+	border-radius: 2px;
+	background: #FFFFFF;
+}
+
+.footer-top-left {
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-top: 38px;
+	line-height: 30px;
+	padding-bottom: 20px;
+}
+
+.footer-top-right1 {
+	padding-top: 56px;
+	padding-left: 80px;
+	text-align: center;
+}
+
+.footer-top-right2 {
+	padding-top: 56px;
+	text-align: center;
+}
+
+.footer-top p {
+	font-size: 14px;
+	padding-top: 6px;
+	color: #ffffff;
+}
+
+.footer-bottom {
+	padding-top: 16px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+}
